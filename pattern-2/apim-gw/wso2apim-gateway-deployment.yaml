@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: wso2apim-gateway
-        image: docker.wso2.com/wso2am:2.6.0
+        image: jointreinamentosegovernanca/wso2am:2.6.0
         livenessProbe:
           exec:
             command:

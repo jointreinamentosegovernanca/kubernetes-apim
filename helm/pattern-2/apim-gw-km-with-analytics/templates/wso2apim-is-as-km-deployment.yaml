@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
       - name: wso2apim-is-as-km
-        image: docker.wso2.com/wso2is-km:5.7.0
+        image: jointreinamentosegovernanca/wso2is-km:5.7.0
         livenessProbe:
           exec:
             command:
