@@ -53,12 +53,12 @@ Then, switch the context to new `wso2` namespace.
 kubectl config set-context $(kubectl config current-context) --namespace=wso2
 ```
 
-##### 3. Create a Kubernetes Secret for pulling the required Docker images from [`WSO2 Docker Registry`](https://docker.wso2.com).
+##### 3. Create a Kubernetes Secret for pulling the required Docker images from [`WSO2 Docker Registry`](https://hub.docker.com).
 
 Create a Kubernetes Secret named `wso2creds` in the cluster to authenticate with the WSO2 Docker Registry, to pull the required images.
 
 ```
-kubectl create secret docker-registry wso2creds --docker-server=docker.wso2.com --docker-username=<WSO2_USERNAME> --docker-password=<WSO2_PASSWORD> --docker-email=<WSO2_USERNAME>
+kubectl create secret docker-registry wso2creds --docker-server=hub.docker.com --docker-username=<WSO2_USERNAME> --docker-password=<WSO2_PASSWORD> --docker-email=<WSO2_USERNAME>
 ```
 
 `WSO2_USERNAME`: Your WSO2 username<br>

@@ -25,5 +25,5 @@ spec:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Retain
   nfs:
-    server: <NFS_SERVER_IP>
-    path: "<NFS_LOCATION_PATH>"
+    server: 192.168.0.17
+    path: "/home/join/share/apim"

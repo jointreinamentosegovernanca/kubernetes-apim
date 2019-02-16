@@ -106,7 +106,7 @@ Change directory to `<KUBERNETES_HOME>/pattern-2/scripts` and execute the `deplo
 ./deploy.sh --wso2-username=<WSO2_USERNAME> --wso2-password=<WSO2_PASSWORD> --cluster-admin-password=<K8S_CLUSTER_ADMIN_PASSWORD>
 ```
 
-* A Kubernetes Secret named `wso2creds` in the cluster to authenticate with the [`WSO2 Docker Registry`](https://docker.wso2.com), to pull the required images.
+* A Kubernetes Secret named `wso2creds` in the cluster to authenticate with the [`WSO2 Docker Registry`](https://hub.docker.com), to pull the required images.
 The following details need to be replaced in the relevant command.
 
 `WSO2_USERNAME`: Your WSO2 username<br>
